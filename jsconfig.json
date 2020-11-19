@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "es6"
+  },
+  "include": [
+    "src",
+    "test"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "typeAcquisition": {
+    "include": [
+      "jest",
+      "faker",
+      "axios"
+    ]
+  }
+}
